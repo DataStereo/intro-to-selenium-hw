@@ -8,8 +8,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.testng:testng:7.0.0'
-    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'org.testng:testng:7.3.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.11.0'
 }
 
 test {
